@@ -1,144 +1,94 @@
 <!DOCTYPE html>
-<!-- doctype declaration: we are using HTML5 -->
-
 <html lang="en">
-
-<!-- header is "invisible" info about the page -->
-
+    
 <head>
     <meta charset="UTF-8">
-    <title>how much wow?</title>
+    <title>zrundle-echo-lab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS only -->
+    <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-    <!-- <link href="styles/style.css" rel="stylesheet"> -->
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
+
 
 
 <body class="container-fluid">
 
-<!-- heres my nav bar header -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>-->
-        <li class="nav-item">
-          <a class="nav-link" href="http://barrycumbie.com" target="_blank">
-              Resume 
-              <i class="bi bi-filetype-pdf"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/barrycumbie/whatever-thing-echo" target="something">GitHub REPO</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+<!-- Column 1 -->
 <div class="row">
-
   <div class="col-md-4">
-
-    <div class="card">
-
-      <h2 class="card-header">Game One: Charlie </h2>
-      <div class="card-body">
-        <p class="card-text">Move the meme around.</p>
+    <div class="card" style="background-color: darkgreen;">
+      <h2 class="card-header">Game One: Charlie Lab</h2>
+      <div class="card-body" style="background-color: antiquewhite;">
+        <p class="card-text">This is an interactive gallary of my favorite characters from One Piece!</p>
       </div>
        <div class="card-footer">
-        <a href="#" class="card-link">Click to Play!</a>
-        <a href="#" class="card-link">see the code</a>
+        <a href="https://zrundle.github.io/charlie-lab-zrundle/" class="card-link" target="_blank">Click Here to Play!</a>
+        <a href="https://github.com/zrundle/charlie-lab-zrundle" class="card-link" target="_blank">View the source code!</a>
       </div>
-
-      
     </div>
-
-  </div>
-  
-  <div class="col-md-4">
-    <div class="card">
-
-      <h2 class="card-header">Game One: Charlie </h2>
-      <div class="card-body">
-        <p class="card-text">Move the meme around.</p>
-      </div>
-       <div class="card-footer">
-        <a href="#" class="card-link">Click to Play!</a>
-        <a href="#" class="card-link">see the code</a>
-      </div>
-
-      
-    </div>
-</div>
-    <div class="col-md-4">
-      <div class="card">
-
-        <h2 class="card-header">Game One: Charlie </h2>
-        <div class="card-body">
-          <p class="card-text">Move the meme around.</p>
-        </div>
-        <div class="card-footer">
-          <a href="#" class="card-link">Click to Play!</a>
-          <a href="#" class="card-link">see the code</a>
-        </div>
-
-        
-      </div>
-
-    </div>
-
-
   </div>
 
-
+<!-- Column 2 -->
+<div class="col-md-4">
+ <div class="card" style="background-color: paleturquoise;">
+  <h2 class="card-header">Description</h2>
+    <div class="card-body" style="background-color: antiquewhite;">
+        <p class="card-text">This website acts as a hub for two of my other projects.</p>
+    </div>
+    <div class="card-footer">
+        Zach Rundle CIS-376
+    </div>
+ </div>
 </div>
 
-
-<!-- footer -->
-<footer class="bg-body-tertiary text-center text-lg-start fixed-bottom">
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2024 Copyright:  
-    <a class="text-body" href="http://barrycumbie.com/" target="_blank">barrycumbie.com</a>
-
-    | 
-
-    <a class="text-body" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarrycumbie.github.io%2Fwhatever-thing-echo%2F" target="nu">check this page's validity</a>
-
-    
-
-    <!-- <button sc ript="alert('hey')"> click me</button> -->
+<!-- Column 3 -->
+<div class="col-md-4">
+ <div class="card" style="background-color: darkgreen;">
+  <h2 class="card-header">Game Two: Delta Lab</h2>
+   <div class="card-body" style="background-color: antiquewhite;">
+    <p class="card-text">Find your perfect Spirit Animal!</p>
+    </div>
+    <div class="card-footer">
+        <a href="https://zrundle.github.io/zrundle-delta-lab/" class="card-link" target="_blank">Click Here to Play!</a>
+        <a href="https://github.com/zrundle/zrundle-delta-lab" class="card-link" target="_blank">View the source code!</a>
+    </div>    
+   </div>
   </div>
-  <!-- Copyright -->
-
-
-
-</footer>
-
-
-
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-<script src="scripts/script.js"></script>
+<script src="scripts/scripts.js"></script>
 
 </body>
+
+<!-- Arrow Links -->
+<leftarrow>
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5"/>
+    </svg>
+</leftarrow>
+
+<rightarrow>
+    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5"/>
+    </svg>
+</rightarrow>
+
+<!-- BUTTON -->
+<button id="coolButton" class="btn btn-primary button">Click Here for More Details!</button>
+
+<!-- FOOTER -->
+<footer class="bg-body-tertiary text-center text-lg-start fixed-bottom">
+    <div class="text-center p-3" style="background-color: cyan;">
+       © 2024 Copyright:
+       <a class="text-body" href="https://github.com/zrundle" target="_blank">My Github Profile!</a> 
+       <a class="text-body" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarrycumbie.github.io%2Fwhatever-thing-echo%2F" target="nu">Is this page valid??</a>
+    </div>
+ </footer>
 
 </html>
